@@ -22,8 +22,9 @@ if ( mousePressed == true)
 	}
 
 }
-void line(){
-		stroke((int)Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
+void line()
+{
+		stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
 		endX = startX +(int)(Math.random()*9);
 		endY = startY +(int)(Math.random()*18)-9;
 		line(startX,startY,endX,endY);
