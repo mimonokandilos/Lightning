@@ -13,7 +13,14 @@ void setup()
 void draw()
 {	
 	press();
+		if( endX >300)
+		{
+			noLoop();
+			background(0);
+			text("The Game is Over", 140, 140, 40);
 		
+				//background((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
+		}
 }
 void press(){
 if ( mousePressed == true)
@@ -30,5 +37,6 @@ void line()
 		line(startX,startY,endX,endY);
 		startX = endX;
 		startY = endY;
+
 	}
 
