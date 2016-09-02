@@ -25,11 +25,11 @@ void draw()
 void press(){
 if ( mousePressed == true)
 	{
-		line();
+		lineX();
 	}
 
 }
-void line()
+void lineX()
 {
 		stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
 		endX = startX +(int)(Math.random()*9);
