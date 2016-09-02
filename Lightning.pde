@@ -19,7 +19,7 @@ void draw()
 			background(0);
 			text("The Game is Over", 140, 140, 40);
 		
-				//background((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
+				
 		}
 }
 void press(){
